@@ -1,0 +1,12 @@
+{
+  "api_key": "YOUR_GHL_API_KEY",
+  "location_id": "YOUR_GHL_LOCATION_ID",
+  "forms": {
+    "emergency": "GHL_EMERGENCY_FORM_ID",
+    "general": "GHL_GENERAL_FORM_ID"
+  },
+  "calendars": {
+    "booking": "GHL_CALENDAR_ID"
+  },
+  "tracking_id": "GHL_TRACKING_ID"
+}

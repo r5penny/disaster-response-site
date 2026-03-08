@@ -1,0 +1,94 @@
+const fs = require('fs');
+const path = require('path');
+const https = require('https');
+
+class WordPressService {
+    constructor() {
+        this.config = this.loadConfig();
+    }
+
+    loadConfig() {
+        try {
+            const configPath = path.join(__dirname, 'wp-config.json');
+            return JSON.parse(fs.readFileSync(configPath, 'utf8'));
+        } catch (e) {
+            console.error('❌ WordPress config not found or invalid.');
+            return null;
+        }
+    }
+
+    getAuthHeader() {
+        if (!this.config || !this.config.username || !this.config.applicationPassword) {
+            throw new Error('WordPress credentials missing in wp-config.json');
+        }
+        const auth = Buffer.from(`${this.config.username}:${this.config.applicationPassword}`).toString('base64');
+        return `Basic ${auth}`;
+    }
+
+    async request(method, endpoint, data = null) {
+        if (!this.config) return;
+
+        const url = new URL(`${this.config.url}/wp-json/wp/v2${endpoint}`);
+        const options = {
+            method: method,
+            headers: {
+                'Authorization': this.getAuthHeader(),
+                'Content-Type': 'application/json'
+            }
+        };
+
+        return new Promise((resolve, reject) => {
+            const req = https.request(url, options, (res) => {
+                let body = '';
+                res.on('data', (chunk) => body += chunk);
+                res.on('end', () => {
+                    if (res.statusCode >= 200 && res.statusCode < 300) {
+                        resolve(JSON.parse(body));
+                    } else {
+                        reject(new Error(`WP API Error: ${res.statusCode} - ${body}`));
+                    }
+                });
+            });
+
+            req.on('error', (e) => reject(e));
+            if (data) req.write(JSON.stringify(data));
+            req.end();
+        });
+    }
+
+    // Example: Update Page Meta (Requires Yoast SEO or similar for specific meta fields)
+    async updatePageMeta(pageId, meta) {
+        console.log(`📡 Updating WordPress Page ID ${pageId}...`);
+        return this.request('POST', `/pages/${pageId}`, { meta: meta });
+    }
+
+    // Example: Get Pages to find matches
+    async findPages(search) {
+        console.log(`🔍 Searching WordPress for: ${search}...`);
+        return this.request('GET', `/pages?search=${encodeURIComponent(search)}`);
+    }
+
+    // Example: Create a new blog post from dashboard recommendation
+    async createPost(title, content, status = 'draft') {
+        console.log(`📝 Creating new WordPress post: ${title}...`);
+        return this.request('POST', '/posts', {
+            title: title,
+            content: content,
+            status: status
+        });
+    }
+}
+
+// If run directly: test the connection
+if (require.main === module) {
+    const wp = new WordPressService();
+    if (wp.config && wp.config.username !== 'YOUR_WP_USERNAME') {
+        wp.findPages('water damage')
+            .then(pages => console.log(`✅ Connection Success! Found ${pages.length} matching pages.`))
+            .catch(err => console.error(`❌ Connection Failed:`, err.message));
+    } else {
+        console.log('💡 To use WordPress API: Update wp-config.json with real credentials.');
+    }
+}
+
+module.exports = WordPressService;

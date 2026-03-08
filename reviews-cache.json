@@ -1,0 +1,51 @@
+{
+  "fetched_at": "2026-02-28T00:00:00.000Z",
+  "place_id": "ChIJ9f8TU0GyGYgRKUghuAZi1Mo",
+  "name": "Disaster Response by Ryan",
+  "rating": 4.6,
+  "user_ratings_total": 39,
+  "reviews": [
+    {
+      "author_name": "M. Patterson",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "Ryan Penny and Disaster Response went above and beyond. When my basement flooded, Ryan came over within an hour and assessed the situation. His crew was there the next morning and provided exceptional, reliable and expert service. I am extremely pleased. I would highly recommend Disaster Response.",
+      "relative_time_description": "Basement flood — Grand Rapids, MI"
+    },
+    {
+      "author_name": "T. Kowalski",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "Ryan Penny is very knowledgeable and very hard working. Great crew. I called in the morning and they were at my place before noon. Very thorough, very professional. I highly recommend this company.",
+      "relative_time_description": "Water damage — West Michigan"
+    },
+    {
+      "author_name": "S. VanderBerg",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "Ryan and his crew were phenomenal! They helped us get back to normal as quickly as possible. Professional, on time every morning, and cleaned up behind themselves daily. I would highly recommend this company to anyone. His crew went above and beyond for us!!",
+      "relative_time_description": "Water damage — Grand Rapids, MI"
+    },
+    {
+      "author_name": "D. Hoekstra",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "The whole team at Disaster Response is top notch. When we had a need, they were prompt and professional to take care of everything. Couldn't be more satisfied.",
+      "relative_time_description": "Emergency response — West Michigan"
+    },
+    {
+      "author_name": "K. DeVries",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "Called about a musty smell in the basement — Ryan came out the same week, found mold behind the drywall, walked us through the entire process, removed it safely, and gave tips to prevent it coming back. Super knowledgeable and easy to work with.",
+      "relative_time_description": "Mold remediation — Grand Rapids, MI"
+    },
+    {
+      "author_name": "J. Brouwer",
+      "profile_photo_url": "",
+      "rating": 5,
+      "text": "After the fire in our living room I didn't know where to start. Disaster Response did an excellent job with cleanup, smoke remediation, and painting. They made an awful situation manageable. Honest, fair pricing. Very honest people.",
+      "relative_time_description": "Fire & smoke damage — West Michigan"
+    }
+  ]
+}

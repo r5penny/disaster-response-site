@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^5.2.1",
+    "express-basic-auth": "^1.2.1",
+    "livereload": "^0.10.3",
+    "mammoth": "^1.11.0"
+  },
+  "devDependencies": {
+    "heic-convert": "^2.1.0"
+  }
+}

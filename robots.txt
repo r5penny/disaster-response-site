@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /?s=
+
+Sitemap: https://disaster911.net/sitemap.xml
+
+# Allow all major search bots explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Allow AI crawlers access to helpful content
+User-agent: GPTBot
+Allow: /blog/
+Allow: /about/
+Allow: /water-damage-restoration/
+Allow: /fire-damage-restoration/
+Allow: /mold-remediation/
+Allow: /sewage-cleanup/
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /

@@ -1,0 +1,67 @@
+index.html:251: style="color: #fff; text-decoration: underline; font-weight: 600"
+index.html:302: background: #fff;
+index.html:569: background: #fff;
+index.html:609: color: #000;
+index.html:638: color: #000;
+index.html:668: color: #000;
+index.html:700: color: #000;
+index.html:713: color: #000;
+index.html:759: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:763: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:767: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:771: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:775: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:779: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:783: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:787: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:791: <span style="font-weight: 800; font-size: 0.95rem; color: #000"
+index.html:799: <section style="padding: 3rem 0; background: #fff; overflow: hidden">
+index.html:1092: <section style="padding: 4rem 0; background: #fff">
+index.html:1100: background: #fff;
+index.html:1105: box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+index.html:1178: background: #fff;
+index.html:1182: box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+index.html:1198: color: #000;
+index.html:1279: background: #fff;
+index.html:1283: box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+index.html:1299: color: #000;
+index.html:1379: background: #fff;
+index.html:1383: box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+index.html:1399: color: #000;
+index.html:1480: background: #fff;
+index.html:1484: box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+index.html:1500: color: #000;
+index.html:1579: background: #fff;
+index.html:1583: box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+index.html:1599: color: #000;
+index.html:1679: background: #fff;
+index.html:1683: box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+index.html:1699: color: #000;
+index.html:1788: background: #fff;
+index.html:1795: box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+index.html:1995: <section style="padding: 4rem 0; background: #fff; color: #000">
+index.html:2006: <h2 style="color: #000; margin-bottom: 0.75rem">
+index.html:2027: <a href="tel:6168221978" style="color: #000; font-weight: 700"
+index.html:2043: <a href="sms:6168221978" style="color: #000; font-weight: 700"
+index.html:2059: <a href="mailto:rpenny@disaster911.net" style="color: #000"
+index.html:2126: color: #000;
+rebuild-city-pages.js:189: <div class="neo-card" style="margin:3.5rem 0; padding:3rem; background:#fff; border-left:5px solid var(--accent); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); border-radius:12px;">
+rebuild-city-pages.js:194: <h2 style="color:#000; margin:0; font-size:1.8rem;">Local Geography & Property Risks in ${name}, MI</h2>
+rebuild-city-pages.js:199: <h3 style="margin-top:0; margin-bottom:1rem; font-size:1.3rem; color:#000; border-bottom:2px solid var(--border); padding-bottom:0.5rem;">Specific ${county} County Constraints</h3>
+rebuild-city-pages.js:297: <div class="neo-card" style="margin:3.5rem 0; padding:3rem; background:#fff; border-left:5px solid var(--accent); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); border-radius:12px;">
+rebuild-city-pages.js:302: <h2 style="color:#000; margin:0; font-size:1.8rem;">Local Geography & Property Risks in ${name}, MI</h2>
+rebuild-city-pages.js:307: <h3 style="margin-top:0; margin-bottom:1rem; font-size:1.3rem; color:#000; border-bottom:2px solid var(--border); padding-bottom:0.5rem;">Specific ${county} County Constraints</h3>
+rebuild-city-pages.js:402: <div class="neo-card" style="margin:3.5rem 0; padding:3rem; background:#fff; border-left:5px solid var(--accent); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); border-radius:12px;">
+rebuild-city-pages.js:407: <h2 style="color:#000; margin:0; font-size:1.8rem;">Local Geography & Property Risks in ${name}, MI</h2>
+rebuild-city-pages.js:412: <h3 style="margin-top:0; margin-bottom:1rem; font-size:1.3rem; color:#000; border-bottom:2px solid var(--border); padding-bottom:0.5rem;">Specific ${county} County Constraints</h3>
+rebuild-city-pages.js:426: <div style="background:#fff; padding:1rem; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+rebuild-city-pages.js:523: <div class="neo-card" style="margin:3.5rem 0; padding:3rem; background:#fff; border-left:5px solid var(--accent); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); border-radius:12px;">
+rebuild-city-pages.js:528: <h2 style="color:#000; margin:0; font-size:1.8rem;">Local Geography & Property Risks in ${name}, MI</h2>
+rebuild-city-pages.js:533: <h3 style="margin-top:0; margin-bottom:1rem; font-size:1.3rem; color:#000; border-bottom:2px solid var(--border); padding-bottom:0.5rem;">Specific ${county} County Constraints</h3>
+rebuild-city-pages.js:627: <a href="/${svcSlug}/${c.slug}/" style="display:block;padding:.6rem 1rem;background:#fff;border:1px solid var(--bg-subtle);border-radius:var(--radius-md);font-weight:600;font-size:.9rem;color:#000;text-decoration:none;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-subtle)'">
+rebuild-city-pages.js:732: <p style="margin:.75rem 0 0;font-size:.9rem;color:rgba(255,255,255,.82);">No answer? Text works great. Or <a href="${depth}contact/" style="color:#fff;text-decoration:underline;font-weight:600;">fill out our form</a>.</p>
+rebuild-city-pages.js:755: <div style="background:#fff;color:#000;border-radius:var(--radius-lg);padding:1.5rem;text-align:center;">
+rebuild-city-pages.js:758: <a href="sms:6168221978" style="display:flex;align-items:center;justify-content:center;gap:.4rem;padding:.6rem;background:rgba(255,255,255,.1);border-radius:.5rem;color:#000;text-decoration:none;font-weight:600;font-size:.9rem;"><i class="fa-solid fa-comment-sms"></i> Text Us</a>
+rebuild-city-pages.js:761: <div style="background:#fff;border:1px solid var(--bg-subtle);border-radius:var(--radius-lg);padding:1.25rem;">
+rebuild-city-pages.js:771: <div style="background:#fff;border:1px solid var(--bg-subtle);border-radius:var(--radius-lg);padding:1.25rem;">
+rebuild-city-pages.js:775: <div style="background:#fff;border:1px solid var(--bg-subtle);border-radius:var(--radius-lg);padding:1.25rem;">

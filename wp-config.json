@@ -1,0 +1,6 @@
+{
+  "url": "https://disaster911.net",
+  "username": "YOUR_WP_USERNAME",
+  "applicationPassword": "YOUR_WP_APPLICATION_PASSWORD",
+  "note": "Get an Application Password from WP Admin -> Users -> Your Profile -> Application Passwords"
+}

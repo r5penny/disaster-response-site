@@ -1,0 +1,65 @@
+/*
+Theme Name: Disaster Response Child
+Theme URI: https://disaster911.net/
+Template: kadence
+Author: Ryan Penny
+Description: SEO-optimized child theme for Disaster Response by Ryan.
+Version: 1.0.0
+*/
+
+:root {
+    --primary: #0f172a;
+    --primary-light: #1e293b;
+    --accent: #db0516ec;
+    --accent-hover: #f52346;
+    --text-main: #334155;
+    --text-muted: #64748b;
+    --bg-light: #f8fafc;
+    --bg-white: #ffffff;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+    --primary: #f8fafc;
+    --primary-light: #f1f5f9;
+    --bg-light: #020617;
+    --bg-white: #0f172a;
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --bg-subtle: #1e293b;
+}
+
+/* Core Design Overrides */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg-white);
+}
+
+.city-hero {
+    background: var(--primary);
+    color: #fff;
+}
+
+.mobile-floating-cta {
+    display: none;
+    position: fixed;
+    bottom: 0; left: 0; right: 0; z-index: 999;
+}
+
+@media (max-width: 768px) {
+    .mobile-floating-cta { display: flex; }
+}
+
+.mfc-call {
+    flex: 1; background: var(--accent); color: #fff;
+    text-align: center; padding: 1rem; font-weight: 700;
+}
+
+.mfc-text {
+    flex: 1; background: #1e3a2a; color: #fff;
+    text-align: center; padding: 1rem; font-weight: 700;
+}

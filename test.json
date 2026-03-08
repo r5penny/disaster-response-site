@@ -1,0 +1,49 @@
+[3:30:04 PM] ?? INITIALIZING FULL DEEP SCAN...
+[SYSTEM] index.html ... ? VERIFIED
+[HUB] WATER-DAMAGE-RESTORATION ... Found 51 city nodes.
+[SCAN] water-damage-restoration/blendon-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/chester-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/east-grand-rapids-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/georgetown-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/greenville-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/jamestown-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/montague-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/port-sheldon-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/sullivan-mi ... ? VALIDATED
+[SCAN] water-damage-restoration/wright-mi ... ? VALIDATED
+[HUB] FIRE-DAMAGE-RESTORATION ... Found 51 city nodes.
+[SCAN] fire-damage-restoration/alpine-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/cedar-springs-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/dorr-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/gaines-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/grant-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/ionia-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/lowell-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/plainfield-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/spring-lake-mi ... ? VALIDATED
+[SCAN] fire-damage-restoration/whitehall-mi ... ? VALIDATED
+[HUB] MOLD-REMEDIATION ... Found 51 city nodes.
+[SCAN] mold-remediation/allendale-mi ... ? VALIDATED
+[SCAN] mold-remediation/cascade-mi ... ? VALIDATED
+[SCAN] mold-remediation/cutlerville-mi ... ? VALIDATED
+[SCAN] mold-remediation/fruitport-mi ... ? VALIDATED
+[SCAN] mold-remediation/grandville-mi ... ? VALIDATED
+[SCAN] mold-remediation/hudsonville-mi ... ? VALIDATED
+[SCAN] mold-remediation/kentwood-mi ... ? VALIDATED
+[SCAN] mold-remediation/norton-shores-mi ... ? VALIDATED
+[SCAN] mold-remediation/sparta-mi ... ? VALIDATED
+[SCAN] mold-remediation/wayland-mi ... ? VALIDATED
+[HUB] SEWAGE-CLEANUP ... Found 51 city nodes.
+[SCAN] sewage-cleanup/ada-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/caledonia-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/coopersville-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/forest-hills-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/grand-rapids-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/holland-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/kent-city-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/muskegon-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/rockford-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/walker-mi ... ? VALIDATED
+[SCAN] sewage-cleanup/zeeland-mi ... ? VALIDATED
+[3:30:04 PM] ?? DEEP SCAN COMPLETE.
+[SUMMARY] Total Pages Verified: 205/227

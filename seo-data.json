@@ -1,0 +1,81 @@
+{
+  "_NOTICE": "ALL DATA HERE IS EITHER VERIFIED FROM LOCAL FILES OR MARKED AS REQUIRING EXTERNAL API. NOTHING IS MADE UP.",
+  "lastScanned": "2026-03-07T22:14:08.723Z",
+  "siteUrl": "https://disaster911.net",
+  "localAudit": {
+    "source": "LOCAL_FILE_SCAN",
+    "description": "Data from scanning real HTML files listed in sitemap.xml.",
+    "scanDate": "2026-03-07T22:14:08.723Z",
+    "pagesInSitemap": 226,
+    "pagesVerifiedLocally": 226,
+    "pagesMissing": 0,
+    "avgSeoScore": 96,
+    "totalIssues": 154,
+    "issueBreakdown": {
+      "TITLE_MISSING": 1,
+      "H1_MISSING": 1,
+      "META_DESC_LONG": 27,
+      "META_DESC_SHORT": 2,
+      "TITLE_LONG": 123
+    }
+  },
+  "googleSearchConsole": {
+    "source": "NOT_CONNECTED",
+    "status": "Google Search Console API credentials not configured.",
+    "howToConnect": "Add OAuth2 credentials to google-gateway.js to enable live GSC data.",
+    "organicTraffic": null,
+    "totalClicks": null,
+    "totalImpressions": null,
+    "averageCTR": null,
+    "averagePosition": null,
+    "pagesIndexedByGoogle": null
+  },
+  "googleAnalytics": {
+    "source": "NOT_CONNECTED",
+    "status": "Google Analytics 4 API credentials not configured.",
+    "howToConnect": "Add GA4 credentials to google-gateway.js to enable live analytics data.",
+    "activeUsers": null,
+    "sessions": null,
+    "bounceRate": null
+  },
+  "domainAuthority": {
+    "source": "NOT_CONNECTED",
+    "status": "No Moz or Ahrefs API configured.",
+    "howToConnect": "Sign up for Moz API or Ahrefs API and integrate.",
+    "value": null
+  },
+  "backlinks": {
+    "source": "NOT_CONNECTED",
+    "status": "No backlink API configured.",
+    "howToConnect": "Integrate Ahrefs or Moz Link API.",
+    "total": null,
+    "referringDomains": null
+  },
+  "keywordRankings": {
+    "source": "NOT_CONNECTED",
+    "status": "No rank tracking API configured. Cannot determine keyword positions without GSC API or a rank tracker.",
+    "howToConnect": "Option 1: Connect GSC API. Option 2: Integrate SERPapi.com or DataForSEO.",
+    "keywords": []
+  },
+  "mapPack": {
+    "source": "NOT_CONNECTED",
+    "status": "Local pack rankings require a rank tracking API.",
+    "howToConnect": "Integrate BrightLocal or LocalFalcon.",
+    "rankings": []
+  },
+  "googleBusinessProfile": {
+    "source": "LOCAL_CACHE",
+    "description": "Data from reviews-cache.json. May not be current.",
+    "placeId": "ChIJ9f8TU0GyGYgRKUghuAZi1Mo",
+    "name": "Disaster Response by Ryan",
+    "rating": 4.6,
+    "reviewCount": 39,
+    "reviewsVerified": false,
+    "note": "Review count from local cache file. Connect Google Places API for live data."
+  },
+  "wordpress": {
+    "source": "NOT_CONNECTED",
+    "status": "WordPress API credentials not configured in wp-config.json.",
+    "howToConnect": "Update wp-config.json with real credentials."
+  }
+}

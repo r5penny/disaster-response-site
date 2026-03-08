@@ -1,0 +1,117 @@
+/**
+ * Google Gateway — REAL DATA ONLY
+ * No fake numbers. If we can't get real data, we say so.
+ */
+const https = require('https');
+const http = require('http');
+
+class GoogleGateway {
+    constructor() {
+        this.propertyUrl = 'https://disaster911.net/';
+        this.gscCredentials = null; // Set to real OAuth2 credentials when available
+        this.gaCredentials = null;  // Set to real GA4 credentials when available
+    }
+
+    /**
+     * Check if real GSC API credentials are configured
+     */
+    hasGSCCredentials() {
+        return this.gscCredentials !== null;
+    }
+
+    /**
+     * Check if real GA4 API credentials are configured
+     */
+    hasGACredentials() {
+        return this.gaCredentials !== null;
+    }
+
+    /**
+     * Fetch real search performance from Google Search Console API
+     * Returns null if no credentials are configured
+     */
+    async fetchSearchPerformance() {
+        if (!this.hasGSCCredentials()) {
+            return {
+                source: 'NOT_CONNECTED',
+                message: 'Google Search Console API not connected. Add OAuth2 credentials to enable live data.',
+                totalClicks: null,
+                totalImpressions: null,
+                averageCTR: null,
+                averagePosition: null,
+                topQueries: []
+            };
+        }
+        // When credentials are added, this will call the real GSC API
+        // https://developers.google.com/webmaster-tools/v1/searchanalytics/query
+        return null;
+    }
+
+    /**
+     * Fetch real analytics from Google Analytics 4 API
+     * Returns null if no credentials are configured
+     */
+    async fetchAnalytics() {
+        if (!this.hasGACredentials()) {
+            return {
+                source: 'NOT_CONNECTED',
+                message: 'Google Analytics 4 API not connected. Add GA4 credentials to enable live data.',
+                activeUsers: null,
+                sessions: null,
+                bounceRate: null,
+                topPages: []
+            };
+        }
+        return null;
+    }
+
+    /**
+     * REAL: Check if a URL on the live site returns 200
+     */
+    checkLiveUrl(url) {
+        return new Promise((resolve) => {
+            const protocol = url.startsWith('https') ? https : http;
+            const req = protocol.get(url, { timeout: 8000 }, (res) => {
+                resolve({
+                    url: url,
+                    statusCode: res.statusCode,
+                    alive: res.statusCode >= 200 && res.statusCode < 400
+                });
+            });
+            req.on('error', (e) => {
+                resolve({
+                    url: url,
+                    statusCode: 0,
+                    alive: false,
+                    error: e.message
+                });
+            });
+            req.on('timeout', () => {
+                req.destroy();
+                resolve({
+                    url: url,
+                    statusCode: 0,
+                    alive: false,
+                    error: 'Timeout'
+                });
+            });
+        });
+    }
+
+    /**
+     * REAL: Batch check multiple live URLs
+     */
+    async batchCheckLiveUrls(urls, concurrency = 5) {
+        const results = [];
+        for (let i = 0; i < urls.length; i += concurrency) {
+            const batch = urls.slice(i, i + concurrency);
+            const batchResults = await Promise.all(
+                batch.map(url => this.checkLiveUrl(url))
+            );
+            results.push(...batchResults);
+        }
+        return results;
+    }
+}
+
+module.exports = GoogleGateway;
