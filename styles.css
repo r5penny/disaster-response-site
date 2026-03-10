@@ -1,8 +1,6 @@
 /* ==========================================================================
    Premium Design Variables & Foundations
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap');
-
 :root {
     /* Primary / CTA */
     --primary: #dc2626;
@@ -364,7 +362,7 @@ select:focus {
 
 input::placeholder,
 textarea::placeholder {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.6);
     opacity: 1;
 }
 
@@ -2182,6 +2180,17 @@ main a[style*="border: 1px solid #e2e8f0"] {
 .service-area-grid a:hover {
     border-color: var(--accent) !important;
     box-shadow: 0 0 0 1px var(--accent) !important;
+}
+
+/* ==========================================================================
+   Accessibility: Reduced Motion
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 /* End of Styles */

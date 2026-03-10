@@ -536,7 +536,7 @@ ${SERVICES.map(s => `                            <li><a href="${depth}${s.slug}/
                     <li><a href="${depth}insurance-claims/">Insurance Claims</a></li>
                 </ul>
                 <h3 style="margin-top:1.5rem;">Sister Company</h3>
-                <ul class="footer-links"><li><a href="https://rentalexdumpstergr.com" target="_blank" rel="noopener"><i class="fa-solid fa-dumpster" style="margin-right:.35rem;"></i>Rentalex Dumpster GR</a></li></ul>
+                <ul class="footer-links"><li><a href="https://rentalexdumpstersgr.com" target="_blank" rel="noopener"><i class="fa-solid fa-dumpster" style="margin-right:.35rem;"></i>Rentalex Dumpster GR</a></li></ul>
             </div>
             <div class="footer-col">
                 <h3>Top Service Areas</h3>
